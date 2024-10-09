@@ -8,6 +8,9 @@ Together, small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) a
 
 In this project, we developed neural network and regression models to predict survival outcomes for NSCLC patients. Our goal is to utilize machine learning to identify factors that can aid in early detection.
 
+![Lung Cancer Incidence](images/Lung_Cancer_Incidence_in_the_U.S..png)
+*Figure 1: Lung cancer incidence in the U.S.*
+
 ## Dataset
 
 The dataset utilized for this project is sourced from the paper "Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas" (Nat Genet. 2016 Jun;48(6):607-16. doi: 10.1038/ng.3564). It was downloaded from cBioPortal:
@@ -36,15 +39,6 @@ This dataset includes demographic, lifestyle, and genomic data, allowing us to a
 ## Visuals
 
 
-
-![Model Architecture](path/to/your/image1.png)
-*Figure 1: Model architecture used in the study.*
-
-![Survival Analysis](path/to/your/image2.png)
-*Figure 2: Survival analysis results.*
-
-![Data Distribution](path/to/your/image3.png)
-*Figure 3: Distribution of key features in the dataset.*
 
 ## Conclusion
 
