@@ -19,6 +19,9 @@ The dataset utilized for this project is sourced from the paper "Distinct patter
 
 This dataset includes demographic, lifestyle, and genomic data, allowing us to analyze differences among patients and build predictive models.
 
+The NCI Cancer Atlas was also used to gather data on lung cancer incidence in th U.S. by State (2017 - 2021)
+https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
+
 ## Methodology
 
 1. **Data Preprocessing**
