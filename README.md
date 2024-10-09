@@ -36,6 +36,29 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
    - Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Results
+![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
+*Figure 2: Early diagnosis may predict longer survival.*
+
+![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S..png)
+*Figure 1: Lung cancer incidence in the U.S.*
+
+![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
+*Figure 2: Early diagnosis may predict longer survival.*
+
+![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival.png)
+*Figure 3: History of malignancy decreases survival.*
+
+![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
+*Figure 4: Lung cancer diagnosis vs. state population and smokers.*
+
+![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
+*Figure 5: Non-smoking not necessarily correlated with better survival.*
+
+![Sex Has No Effect on Survival](Output/Sex%20Has%20No%20Affect%20on%20Survival.png)
+*Figure 6: Sex has no effect on survival.*
+
+![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Output/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma.png)
+*Figure 7: Squamous carcinoma has more deaths than adenocarcinoma.*
 
 
 
