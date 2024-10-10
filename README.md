@@ -2,7 +2,7 @@
 
 **Authors:** Nefertiti Muhammad, Adrian De La Cruz, Joe Coffaro, Alexander Walden
 
-![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
+![Lung Cancer Incidence](Images/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
 *Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
 
 ## Overview
@@ -11,7 +11,7 @@ Together, small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) a
 
 In this project, we developed neural network and regression models to predict survival outcomes for NSCLC patients. Our goal is to utilize machine learning to identify factors that can aid in early detection.
 
-![Early Diagnosis](Output/Early%20Diagnosis.png)  
+![Early Diagnosis](Images/Early%20Diagnosis.png)  
 *Figure 2: Early Diagnosis May Predict Cancer Survival*
 
 
@@ -47,7 +47,7 @@ The Logistic Regression model was built upon the lung cancer data set in order t
 
 In using the solver method of LBFGS and setting the maximum number of iterations to 1,200, the model results were as follows:
 
-![Logistic Regression Results](Output/LogisticRegressionResults.png)
+![Logistic Regression Results](Images/LogisticRegressionResults.png)
 
 The logistic regression model provides for a fair means of predicting the values for the surviving population (i.e. class labeled as '0') as the precision shown is reported at 0.66, showing that the model predicted positively approximately 2 out of 3 assessments.  The recall reported for the prediction of surviving population is 1.00, which shows that the prediction for the Living Survival was correct at predicting an actual survivor 100% of the time.
 
@@ -71,6 +71,12 @@ Steps included:
 
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
+### Random Forest Decision Model
+
+![image](https://github.com/user-attachments/assets/9e9569b1-6d23-4777-9db6-231a6b4afdd6)
+
+A random forest classifier is an ensemble learning method used for classification tasks. It builds multiple decision trees during training and merges their predictions to improve accuracy and control overfitting. We thought it could provide predictive power for our dataset. It turned out to be slightly more effective than our other models, showing that it may have been best suited. Its results showed that it had a 77% prediction rate for survival, 94% recall score, and 85% f1 score. Its overall accuracy was evaluated at 76%. 
+
 ## Factors Influencing Survival Prediction
 
 The analysis highlights two significant factors that contribute to a higher precision result of 0.74 for the regreeion survival prediction:
@@ -78,20 +84,20 @@ The analysis highlights two significant factors that contribute to a higher prec
 1. **Smoking History**
 2. **Prior Cancer Diagnosis Occurrence**
 
-![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival%20(2).png)  
+![History of Malignancy Decreases Survival](Images/History%20of%20Malignancy%20Decreases%20Survival%20(2).png)  
 *Figure 5: History of malignancy decreases survival. This figure illustrates how prior cancer diagnoses improve the predictive model, as supported by ANOVA results.*
 
 Interestingly, the analysis did not reveal a significant difference in survival outcomes based on smoking history by way of an ANOVA test. This finding is counterintuitive, given the established link between smoking and cancer severity and points to limitations of the dataset.
 
-![Sex and Smoking History](Output/Sex%20and%20Smoking%20History.png)  
+![Sex and Smoking History](Images/Sex%20and%20Smoking%20History.png)  
 *Figure 6: Analysis of sex and smoking history in relation to survival outcomes.*
 
 The analysis did not show a significant difference in survival outcomes based on other factors such as sex and NSCLC subtypes. However, there is a trend indicating that squamous carcinoma is more deadly, which aligns with existing research. The lack of significance in this dataset highlights potential limitations and variability within the data.
 
-![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Output/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma2.png)  
+![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Images/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma2.png)  
 *Figure 7: Comparison of death rates between squamous carcinoma and adenocarcinoma.*
 
-![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
+![Lung Cancer Diagnosis vs State Population and Smokers](Images/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
 *Figure 8: Lung cancer diagnosis vs. state population and smokers.
 
 ## Limitations
