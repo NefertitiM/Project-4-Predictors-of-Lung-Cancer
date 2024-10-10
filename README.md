@@ -2,14 +2,18 @@
 
 **Authors:** Nefertiti Muhammad, Adrian De La Cruz, Joe Coffaro, Alexander Walden
 
+![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
+*Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
+
 ## Overview
 
 Together, small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) are the second most common cancers in the United States. Approximately 10% to 15% of all lung cancers are SCLC, while NSCLC accounts for about 80% to 85%. Lung cancer is the leading cause of cancer-related deaths in the U.S., often diagnosed at later stages, which complicates treatment and negatively impacts survival rates. Research into early detection methods is crucial for improving patient outcomes.
 
 In this project, we developed neural network and regression models to predict survival outcomes for NSCLC patients. Our goal is to utilize machine learning to identify factors that can aid in early detection.
 
-![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
-*Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
+![Early Diagnosis](Output/Early%20Diagnosis.png)  
+*Figure 2: Early Diagnosis May Predict Cancer Survival*
+
 
 ## Dataset
 
