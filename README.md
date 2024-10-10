@@ -41,21 +41,6 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
 
 ## Results
 
-### Neural Network Model
-
-- **Accuracy**: 
-- **Final Training Loss**: 
-- **Validation Loss**: 
-- **AUC**: 
-- **Confusion Matrix**: 
-  - True Positives (TP): 
-  - True Negatives (TN): 
-  - False Positives (FP): 
-  - False Negatives (FN): 
-  - **Precision**: 
-  - **Recall**: 
-- **Training Epochs**: 
-
 ### Regression Model
 
 The Logistic Regression model was built upon the lung cancer data set in order to predict the 'Overall Survival Status' results.  Factors in the dataset was cleaned for any float value columns for any null values and any columns with binary string outputs were replaced with 1s & 0s, accordingly.
@@ -86,21 +71,10 @@ Steps included:
 
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
-
-## Limitations
-
-![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
-*Figure 2: Early diagnosis may predict longer survival.*
-
-![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S..png)
-*Figure 1: Lung cancer incidence in the U.S.*
-
-![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
-*Figure 2: Early diagnosis may predict longer survival.*
+## Data Exploration
 
 ![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival.png)
 *Figure 3: History of malignancy decreases survival.*
-
 
 ![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
 *Figure 4: Non-smoking not necessarily correlated with better survival.*
@@ -112,7 +86,8 @@ The best our optimized model as per keras could achieve in accuracy was 73%, ind
 *Figure 6: Squamous carcinoma has more deaths than adenocarcinoma.*
 
 ![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
-*Figure 7: Lung cancer diagnosis vs. state population and smokers. 
+*Figure 7: Lung cancer diagnosis vs. state population and smokers.
+
 ## Limitations
 
 The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis spefieically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. *
