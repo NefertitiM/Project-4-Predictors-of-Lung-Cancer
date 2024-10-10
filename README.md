@@ -71,6 +71,7 @@ Overall, the model performed fairly for predicting survivors, although the model
 ### Neural Network Model
 
 ![image](https://github.com/user-attachments/assets/682274a4-ebb6-404b-9821-e857b6637b4f)
+
 Used scikitlearn and keras libraries alongside Pandas to find and create the best neural network structure for a machine learning model to predict the target variable in our dataset. The factors of our dataset would be used by the model to predict whether a patient survived after their diagnosis of lung cancer.
 Steps included:
 * Data preparation: ~200 rows dropped and target separated into 0s and 1s; dropped unknown columns
@@ -78,6 +79,7 @@ Steps included:
 * Used StandardScaler instance to scale data
 * Used keras tuner to find optimized combination of hyperparameters
 * Creating model architecture: first layer, three dense layers, and output layer consisting of 9, 3, 5, 3, 9, and 3 units respectively
+
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
 
