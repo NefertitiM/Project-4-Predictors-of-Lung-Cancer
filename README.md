@@ -83,13 +83,11 @@ The analysis highlights two significant factors that contribute to a higher prec
 
 Interestingly, the analysis did not reveal a significant difference in survival outcomes based on smoking history by way of an ANOVA test. This finding is counterintuitive, given the established link between smoking and cancer severity and points to limitations of the dataset.
 
-![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
-*Figure 4: Non-smoking not necessarily correlated with better survival.*
+![Sex and Smoking History](Output/Sex%20and%20Smoking%20History.png)  
+*Figure 6: Analysis of sex and smoking history in relation to survival outcomes.*
 
 The analysis did not show a significant difference in survival outcomes based on other factors such as sex and NSCLC subtypes. However, there is a trend indicating that squamous carcinoma is more deadly, which aligns with existing research. The lack of significance in this dataset highlights potential limitations and variability within the data.
 
-![Sex Has No Effect on Survival](Output/Sex%20Has%20No%20Affect%20on%20Survival.png)
-*Figure 5: Sex has no effect on survival.*
 
 ![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Output/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma.png)
 *Figure 6: Squamous carcinoma has more deaths than adenocarcinoma.*
