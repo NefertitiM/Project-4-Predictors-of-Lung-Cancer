@@ -88,12 +88,11 @@ Interestingly, the analysis did not reveal a significant difference in survival 
 
 The analysis did not show a significant difference in survival outcomes based on other factors such as sex and NSCLC subtypes. However, there is a trend indicating that squamous carcinoma is more deadly, which aligns with existing research. The lack of significance in this dataset highlights potential limitations and variability within the data.
 
-
-![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Output/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma.png)
-*Figure 6: Squamous carcinoma has more deaths than adenocarcinoma.*
+![Squamous Carcinoma Has More Deaths Than Adenocarcinoma](Output/Squamous%20Carcinoma%20Has%20More%20Deaths%20Than%20Adenocarcinoma2.png)  
+*Figure 7: Comparison of death rates between squamous carcinoma and adenocarcinoma.*
 
 ![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
-*Figure 7: Lung cancer diagnosis vs. state population and smokers.
+*Figure 8: Lung cancer diagnosis vs. state population and smokers.
 
 ## Limitations
 
