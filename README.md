@@ -54,11 +54,19 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
 
 ### Regression Model
 
-- **R-squared Value**: 
-- **Significant Predictor Coefficients**:
-- **P-value for Smoking Status**: 
-- **Mean Absolute Error**: 
-- **Residuals**: Mean = , Standard Deviation = 
+The Logistic Regression model was built upon the lung cancer data set in order to predict the 'Overall Survival Status' results.  Factors in the dataset was cleaned for any float value columns for any null values and any columns with binary string outputs were replaced with 1s & 0s, accordingly.
+
+In using the solver method of LBFGS and setting the maximum number of iterations to 1,200, the model results were as follows:
+
+![Logistic Regression Results](Output/LogisticRegressionResults.png)
+
+The logistic regression model provides for a fair means of predicting the values for the surviving population (i.e. class labeled as '0') as the precision shown is reported at 0.66, showing that the model predicted positively approximately 2 out of 3 assessments.  The recall reported for the prediction of surviving population is 1.00, which shows that the prediction for the Living Survival was correct at predicting an actual survivor 100% of the time.
+
+As for the model's ability to predict the values for the non-surviving population (i.e. class labeled as '1'), the model did not perform well at all, as the precision and the recall is reported at 0%.
+
+As the results for the model were lower than desired, several runs of the model were performed to only use one factor at a time.  With several iterations, the analysis provided that the two factors of 1) Smoking History and 2) Prior Cancer Diagnosis Occurence allowed for a higher precision result of 0.74 for the survival prediction, although no benefits were observed for the non-survival prediction.
+
+Overall, the model performed fairly for predicting survivors, although the model would most likely perform better with a significantly larger dataset than the one we sourced (i.e. a dataset with significantly more than 1200 patients).
 
 ## Limitations
 
