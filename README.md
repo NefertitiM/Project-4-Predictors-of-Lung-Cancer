@@ -36,6 +36,14 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
    - Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Results
+
+### Neural Network Model
+
+### Regression Model
+
+## Limitations
+The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis spefieically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. 
+
 ![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
 *Figure 2: Early diagnosis may predict longer survival.*
 
@@ -61,17 +69,10 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
 ![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
 *Figure 7: Lung cancer diagnosis vs. state population and smokers.*
 
-## Limitations
-The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis spefieically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. 
-
-## Visuals
-
-
-
 ## Conclusion
 
 
 
 ## Acknowledgments
 
-We would like to thank the authors of the original dataset and the research community for their valuable contributions to this field.
+
