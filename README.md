@@ -81,9 +81,12 @@ The analysis highlights two significant factors that contribute to a higher prec
 ![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival%20(2).png)  
 *Figure 5: History of malignancy decreases survival. This figure illustrates how prior cancer diagnoses improve the predictive model, as supported by ANOVA results.*
 
+Interestingly, the analysis did not reveal a significant difference in survival outcomes based on smoking history by way of an ANOVA test. This finding is counterintuitive, given the established link between smoking and cancer severity and points to limitations of the dataset.
 
 ![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
 *Figure 4: Non-smoking not necessarily correlated with better survival.*
+
+The analysis did not show a significant difference in survival outcomes based on other factors such as sex and NSCLC subtypes. However, there is a trend indicating that squamous carcinoma is more deadly, which aligns with existing research. The lack of significance in this dataset highlights potential limitations and variability within the data.
 
 ![Sex Has No Effect on Survival](Output/Sex%20Has%20No%20Affect%20on%20Survival.png)
 *Figure 5: Sex has no effect on survival.*
