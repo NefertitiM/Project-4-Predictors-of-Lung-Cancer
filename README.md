@@ -71,10 +71,16 @@ Steps included:
 
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
-## Data Exploration
+## Factors Influencing Survival Prediction
 
-![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival.png)
-*Figure 3: History of malignancy decreases survival.*
+The analysis highlights two significant factors that contribute to a higher precision result of 0.74 for the regreeion survival prediction:
+
+1. **Smoking History**
+2. **Prior Cancer Diagnosis Occurrence**
+
+![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival%20(2).png)  
+*Figure 5: History of malignancy decreases survival. This figure illustrates how prior cancer diagnoses improve the predictive model, as supported by ANOVA results.*
+
 
 ![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
 *Figure 4: Non-smoking not necessarily correlated with better survival.*
