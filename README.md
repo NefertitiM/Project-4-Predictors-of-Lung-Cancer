@@ -68,6 +68,19 @@ As the results for the model were lower than desired, several runs of the model 
 
 Overall, the model performed fairly for predicting survivors, although the model would most likely perform better with a significantly larger dataset than the one we sourced (i.e. a dataset with significantly more than 1200 patients).
 
+### Neural Network Model
+
+![image](https://github.com/user-attachments/assets/682274a4-ebb6-404b-9821-e857b6637b4f)
+Used scikitlearn and keras libraries alongside Pandas to find and create the best neural network structure for a machine learning model to predict the target variable in our dataset. The factors of our dataset would be used by the model to predict whether a patient survived after their diagnosis of lung cancer.
+Steps included:
+* Data preparation: ~200 rows dropped and target separated into 0s and 1s; dropped unknown columns
+* Training/splitting: Split into testing and training data based on X (nine features chosen from the raw dataset) and y (survival status, or whether patient survived following diagnosis)
+* Used StandardScaler instance to scale data
+* Used keras tuner to find optimized combination of hyperparameters
+* Creating model architecture: first layer, three dense layers, and output layer consisting of 9, 3, 5, 3, 9, and 3 units respectively
+The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
+
+
 ## Limitations
 
 ![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
