@@ -13,7 +13,7 @@ CREATE TABLE lung_cancer_predictors (
 );
 
 CREATE TABLE us_incidence (
-    area VARCAR(20) NOT NULL,
+    area VARCHAR(20) NOT NULL,
     state_fips INT NOT NULL PRIMARY KEY,
     age_rate FLOAT NOT NULL,
     lower_ci FLOAT NOT NULL,
