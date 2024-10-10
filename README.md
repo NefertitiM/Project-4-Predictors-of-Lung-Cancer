@@ -71,6 +71,12 @@ Steps included:
 
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
+### Random Forest Decision Model
+
+![image](https://github.com/user-attachments/assets/9e9569b1-6d23-4777-9db6-231a6b4afdd6)
+
+A random forest classifier is an ensemble learning method used for classification tasks. It builds multiple decision trees during training and merges their predictions to improve accuracy and control overfitting. We thought it could provide predictive power for our dataset. It turned out to be slightly more effective than our other models, showing that it may have been best suited. Its results showed that it had a 77% prediction rate for survival, 94% recall score, and 85% f1 score. Its overall accuracy was evaluated at 76%. 
+
 ## Factors Influencing Survival Prediction
 
 The analysis highlights two significant factors that contribute to a higher precision result of 0.74 for the regreeion survival prediction:
