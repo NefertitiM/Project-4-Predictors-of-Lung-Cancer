@@ -2,14 +2,18 @@
 
 **Authors:** Nefertiti Muhammad, Adrian De La Cruz, Joe Coffaro, Alexander Walden
 
+![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
+*Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
+
 ## Overview
 
 Together, small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) are the second most common cancers in the United States. Approximately 10% to 15% of all lung cancers are SCLC, while NSCLC accounts for about 80% to 85%. Lung cancer is the leading cause of cancer-related deaths in the U.S., often diagnosed at later stages, which complicates treatment and negatively impacts survival rates. Research into early detection methods is crucial for improving patient outcomes.
 
 In this project, we developed neural network and regression models to predict survival outcomes for NSCLC patients. Our goal is to utilize machine learning to identify factors that can aid in early detection.
 
-![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
-*Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
+![Early Diagnosis](Output/Early%20Diagnosis.png)  
+*Figure 2: Early Diagnosis May Predict Cancer Survival*
+
 
 ## Dataset
 
@@ -36,21 +40,6 @@ https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
    - Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Results
-
-### Neural Network Model
-
-- **Accuracy**: 
-- **Final Training Loss**: 
-- **Validation Loss**: 
-- **AUC**: 
-- **Confusion Matrix**: 
-  - True Positives (TP): 
-  - True Negatives (TN): 
-  - False Positives (FP): 
-  - False Negatives (FN): 
-  - **Precision**: 
-  - **Recall**: 
-- **Training Epochs**: 
 
 ### Regression Model
 
@@ -82,21 +71,10 @@ Steps included:
 
 The best our optimized model as per keras could achieve in accuracy was 73%, indicating our dataset should perhaps be reevaluated in terms of scope and number of samples if we are to construct a more accurate, robust model.
 
-
-## Limitations
-
-![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
-*Figure 2: Early diagnosis may predict longer survival.*
-
-![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S..png)
-*Figure 1: Lung cancer incidence in the U.S.*
-
-![Early Diagnosis May Predict Longer Survival](Output/Early%20Diagnosis%20May%20Predict%20Longer%20Survival.png)
-*Figure 2: Early diagnosis may predict longer survival.*
+## Data Exploration
 
 ![History of Malignancy Decreases Survival](Output/History%20of%20Malignancy%20Decreases%20Survival.png)
 *Figure 3: History of malignancy decreases survival.*
-
 
 ![Non-Smoking Not Necessarily Correlated with Better Survival](Output/Non-Smoking%20Not%20Nessecarily%20Correlated%20with%20Better%20Survival.png)
 *Figure 4: Non-smoking not necessarily correlated with better survival.*
@@ -108,7 +86,8 @@ The best our optimized model as per keras could achieve in accuracy was 73%, ind
 *Figure 6: Squamous carcinoma has more deaths than adenocarcinoma.*
 
 ![Lung Cancer Diagnosis vs State Population and Smokers](Output/Lung_Cancer_Diagnosis_vs_State_Population_and_Smokers.png)
-*Figure 7: Lung cancer diagnosis vs. state population and smokers. 
+*Figure 7: Lung cancer diagnosis vs. state population and smokers.
+
 ## Limitations
 
 The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis spefieically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. *
