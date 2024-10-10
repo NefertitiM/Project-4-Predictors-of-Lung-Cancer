@@ -9,7 +9,7 @@ Together, small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) a
 In this project, we developed neural network and regression models to predict survival outcomes for NSCLC patients. Our goal is to utilize machine learning to identify factors that can aid in early detection.
 
 ![Lung Cancer Incidence](Output/Lung%20Cancer%20Incidence%20in%20the%20U.S._2.png)  
-*Figure 1: Lung cancer incidence in the U.S.*
+*Figure 1: Lung cancer incidence in the U.S. Data source: The NCI Cancer Atlas (2017 - 2021). [NCI Cancer Atlas](https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33)*
 
 ## Dataset
 
