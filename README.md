@@ -26,7 +26,7 @@ This dataset includes demographic, lifestyle, and genomic data, allowing us to a
 The NCI Cancer Atlas was also used to gather data on lung cancer incidence in th U.S. by State (2017 - 2021)
 https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
 
-Tableau Dashboard: [Lung Cancer Incidence in the U.S.](https://public.tableau.com/app/profile/nefertiti.muhammad/viz/LungCancerIncidenceintheU_S_/Dashboard1?publish=yes)
+Tableau Dashboard: [Lung Cancer Incidence in the U.S.](https://public.tableau.com/app/profile/nefertiti.muhammad/viz/LungCancerIncidenceintheU_S_/Dashboard1?publish=yes) & [Project 4 NSCLC Survival Predictors](https://public.tableau.com/app/profile/nefertiti.muhammad/viz/Project4NSCLCSurvivalPredictors/HistoryofMalignancyDecreasesSurvival?publish=yes)
 
 ## Methodology
 
