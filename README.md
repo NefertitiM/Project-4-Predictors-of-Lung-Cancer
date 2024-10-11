@@ -104,12 +104,14 @@ The analysis did not show a significant difference in survival outcomes based on
 
 ## Limitations
 
-The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis spefieically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. *
+The bar graph above is displaying lung cancer diagnosis due to smoking by the populaiton of each state. The Y-axis is population by the millions and the X-axis represents the state and number of smokers in that state. As we can see in the graph based on the legend there is no red meaning we can not see the number of lung cancer diagnosis due to smoking. The reason for this is because lung cancer diagnosis specifically related to smoking is such a small number of cases compared to the total population of a state that trying to capture this data was not a proper way of doing so. A better, more effective way of seeing lung cancer diagnosis due to smoking would be to break down the population sample. Look into smaller sample sizes such as regions or cities. *
 
 ## Conclusion
-
+In this repository, we’ve explored the foundational concepts and practical applications of machine learning. We produced several models, fitted them from our data, and evaluated their accuracy. The results were various, and revealed much about our approach and the effectiveness of the models. We attempted to implement several models in order to compare them. The accuracy can doubtlessly be improved, but we need further insight into this topic. Our results showed our factors did not influence survival as much as we thought, so we should reevaluate our methodology according to what we learned in this project. Several strategies might remedy these problems, including gathering larger amounts of data, further tuning, using other algorithms, and adding more features to increase performance. There is reason for confidence that these steps would help us in the future, in the process allowing those of us who worked on this project the chance to further hone our skills.
 
 
 ## Acknowledgments
 
 Inspiration and credit for any code used is from work done during attendance in the 2024 Northwestern University Data Analysis Bootcamp class sessions.
+
+Thank you to the organizations from whom we retrieved the data used in the completion of this project.
