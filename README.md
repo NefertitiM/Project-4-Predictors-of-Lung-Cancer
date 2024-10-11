@@ -15,7 +15,7 @@ In this project, we developed neural network and regression models to predict su
 *Figure 2: Early Diagnosis May Predict Cancer Survival*
 
 
-## Dataset
+## Dataset & Tableau Dashboard Links
 
 The dataset utilized for this project is sourced from the paper "Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas" (Nat Genet. 2016 Jun;48(6):607-16. doi: 10.1038/ng.3564). It was downloaded from cBioPortal:
 
@@ -25,6 +25,8 @@ This dataset includes demographic, lifestyle, and genomic data, allowing us to a
 
 The NCI Cancer Atlas was also used to gather data on lung cancer incidence in th U.S. by State (2017 - 2021)
 https://gis.cancer.gov/canceratlas/tableview/?d=1&a=1&r=1&s=33
+
+Tableau Dashboard: [Lung Cancer Incidence in the U.S.](https://public.tableau.com/app/profile/nefertiti.muhammad/viz/LungCancerIncidenceintheU_S_/Dashboard1?publish=yes)
 
 ## Methodology
 
